@@ -4,7 +4,7 @@ import { ShieldCheck, Heart, Sparkles, Award } from 'lucide-react';
 import { DOCTOR_INFO } from '../data';
 
 export default function About() {
-  const [imgSrc, setImgSrc] = useState('/assets/dr-priyanka.png');
+  const [imgSrc, setImgSrc] = useState('../assets/dr-priyanka.png');
   const values = [
     {
       title: "Patient-First Care",
