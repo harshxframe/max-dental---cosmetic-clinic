@@ -2,10 +2,11 @@ import { useState } from 'react';
 import { motion } from 'motion/react';
 import { ShieldCheck, Heart, Sparkles, Award } from 'lucide-react';
 import { DOCTOR_INFO } from '../data';
+import doctorImage from "../assets/dr-priyanka.png";
 
 
 export default function About() {
-  const [imgSrc, setImgSrc] = useState('../../assets/dr-priyanka.png');
+  const [imgSrc, setImgSrc] = useState('../assets/dr-priyanka.png');
   const values = [
     {
       title: "Patient-First Care",
@@ -45,8 +46,7 @@ export default function About() {
           <div className="lg:col-span-5 relative">
             <div className="relative aspect-[3/4] w-full max-w-md mx-auto rounded-3xl overflow-hidden shadow-xl border-8 border-slate-100">
               <img
-                src={imgSrc}
-                onError={() => setImgSrc(imgSrc)}
+                src={doctorImage}
                 alt="Dr. Priyanka Verma - Dental Surgeon & Cosmetic Dentist"
                 className="h-full w-full object-cover object-center"
                 referrerPolicy="no-referrer"
