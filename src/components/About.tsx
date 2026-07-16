@@ -45,7 +45,7 @@ export default function About() {
             <div className="relative aspect-[3/4] w-full max-w-md mx-auto rounded-3xl overflow-hidden shadow-xl border-8 border-slate-100">
               <img
                 src={imgSrc}
-                onError={() => setImgSrc("https://images.unsplash.com/photo-1594824813573-246434de83fb?auto=format&fit=crop&q=80&w=800")}
+                onError={() => setImgSrc(imgSrc)}
                 alt="Dr. Priyanka Verma - Dental Surgeon & Cosmetic Dentist"
                 className="h-full w-full object-cover object-center"
                 referrerPolicy="no-referrer"
