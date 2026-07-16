@@ -1,0 +1,6 @@
+{
+  "name": "Max Dental & Cosmetic Clinic",
+  "description": "Premium dental and cosmetic clinic in Unnao, Uttar Pradesh, offering advanced treatments with modern technology and compassionate care.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
